@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # load data
-aphidProteinsRaw = pd.read_csv('aphidProteins.txt', sep = "\t")
+aphidProteinsRaw = pd.read_csv('data\aphidProteinsRaw.txt', sep = "\t")
 aphidProteins = aphidProteinsRaw.copy()
 
 # print(aphidProteins.columns)
