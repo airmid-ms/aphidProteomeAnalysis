@@ -9,7 +9,6 @@ import pandas as pd
 aphidProteinsRaw = pd.read_csv('data/aphidProteinsRaw.txt', sep = "\t")
 aphidProteins = aphidProteinsRaw.copy()
 
-# Q: can i easily remove the C:, N: and T: on the column headers??
 
 # 1. remove reverse positives and potential contaminants
 # If Reverse OR Potential contaminant = + then remove.
