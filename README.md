@@ -20,3 +20,4 @@ The workflow expected a protein-level dataset (tab-delimited) exported from MaxQ
 
 # Project Summary
 The workflow performs:
+1. LFQ proteomics data preprocessing and quality control.
